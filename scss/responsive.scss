@@ -1,0 +1,105 @@
+/* Media Query*/
+@media (max-width:1337px) {
+    section {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1028px) {
+
+    #section-wrapper .box-wrapper {
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 20px;
+
+        .info-wrap {
+            width: 100%;
+            float: none;
+            border-radius: 30px 30px 0px 0px;
+            // text-align: center;
+
+            .info-details {
+                margin: 40px 0px;
+            }
+
+            .social-icons {
+                margin: 15px 0px;
+            }
+        }
+
+        .form-wrap {
+            width: 100%;
+            float: none;
+            border-radius: 0px 0px 30px 30px;
+            margin-top: 20px;
+
+            .form-fields {
+                padding: 15px 10px 10px 10px;
+
+                .form-group {
+                    width: 100%;
+                    margin: 10px 0px;
+                    float: none;
+
+                    &:last-child {
+                        width: 96%;
+                    }
+                }
+            }
+
+            .submit-button {
+                width: 96%;
+                margin: 20px 0px;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .lets {
+        width:18% ;
+    }
+
+    .about_section .about_container {
+        flex-direction: column;
+        padding: 80px 10px;
+        text-align: center;
+    }
+
+    .about_section .about_container .abt_img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about_section .about_container .abt_heading {
+        width: 100%;
+
+        h1 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        .social_icon {
+            font-size: 40px;
+
+            i {
+                margin: 20px;
+            }
+        }
+    }
+
+}
