@@ -75,4 +75,44 @@
   .about_section .about_container .abt_heading .social_icon i {
     margin: 20px;
   }
+}
+@media (max-width: 480px) {
+  .about_section .about_container {
+    flex-direction: column;
+  }
+  .about_section .about_container .abt_heading {
+    margin: 50px;
+  }
+  .resume_section .resume_container {
+    flex-direction: column;
+  }
+  .resume_section .resume_container .exp_section {
+    flex-direction: column;
+    width: 100%;
+  }
+  .resume_section .resume_container .exp_section .resume_heading {
+    width: 100%;
+  }
+  .resume_section .resume_container .exp_section .education {
+    width: 100%;
+  }
+  .skill_section .skill_container .skill_services {
+    flex-direction: column;
+    width: 100%;
+  }
+  .skill_section .skill_container .skill_services .skill_img {
+    width: 80%;
+  }
+  .project_section .project_container .project_img {
+    flex-direction: column;
+  }
+  .project_section .project_container .project_img .img {
+    width: 100%;
+  }
+  .project_section .project_container .project_img .img img {
+    margin-bottom: 30px;
+  }
+  #section-wrapper .box-wrapper .form-wrap .form-fields:last-child {
+    width: 100%;
+  }
 }/*# sourceMappingURL=responsive.css.map */

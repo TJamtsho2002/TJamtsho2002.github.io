@@ -103,3 +103,62 @@
     }
 
 }
+
+@media (max-width:480px) {
+    .about_section .about_container{
+        flex-direction: column;
+
+        .abt_heading{
+            margin: 50px;
+        }
+    }
+
+    .resume_section .resume_container{
+        flex-direction: column;
+
+        .exp_section{
+            flex-direction: column;
+            width: 100%;
+            .resume_heading{
+                width: 100%;
+            }
+            .education{
+                width: 100%;
+            }
+        }
+    } 
+
+    .skill_section .skill_container{
+       .skill_services{
+        flex-direction: column;
+        width: 100%;
+        .skill_img{
+            width: 80%;
+        }
+       }
+
+    }
+
+    .project_section .project_container{
+        .project_img{
+            flex-direction: column;
+            .img{
+                width: 100%;
+                img{
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    #section-wrapper .box-wrapper{
+        .form-wrap{
+           .form-fields{
+            &:last-child {
+                width: 100%;
+            }
+           } 
+        }
+    }
+}
+
