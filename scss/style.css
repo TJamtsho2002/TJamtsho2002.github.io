@@ -41,6 +41,7 @@ header .navbar .lets:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 }
 .hero_section .hero_container .hero_heading {
   height: 80vh;
@@ -298,7 +299,7 @@ header .navbar .lets:hover {
 }
 .project_section .project_container .project_img .img img {
   width: 80%;
-  height: 400px;
+  height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
   margin: 0 auto;
@@ -306,7 +307,7 @@ header .navbar .lets:hover {
   box-shadow: 0px 0px 15px;
 }
 .project_section .project_container .project_img .img img:hover {
-  border: 4px solid #ffffff;
+  border: 4px solid #292929;
 }
 .project_section .project_container .project_img .img h3 {
   font-size: 30px;
