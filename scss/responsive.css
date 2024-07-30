@@ -95,6 +95,7 @@
   }
   .resume_section .resume_container .exp_section .education {
     width: 100%;
+    height: 100%;
   }
   .skill_section .skill_container .skill_services {
     flex-direction: column;
