@@ -7,6 +7,68 @@
 }
 
 @media (max-width: 1028px) {
+    .header_container {
+        width: 100%;
+
+        .navbar {
+            width: 100%;
+
+            .containerfluid {
+                width: 90%;
+
+            }
+        }
+    }
+
+    .about_section {
+        .about_container {
+            gap: 20px;
+            width: 90%;
+            padding: 30px 10px;
+
+            .abt_img {
+                width: 80%;
+
+                img {
+                    height: 50vh;
+                    border: none;
+                }
+            }
+
+            .abt_heading {
+                width: 100%;
+                // text-align: center;
+                padding: 20px 40px;
+
+                h2 {
+                    font-size: 30px;
+                }
+
+                h4 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                button {
+                    padding: 8px 20px;
+                }
+
+                .social_icon {
+                    width: 60%;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+
+    // project section
+    .project_section .project_container {
+        width: 100%;
+        margin: auto;
+    }
 
     #section-wrapper .box-wrapper {
         flex-direction: column;
@@ -39,9 +101,10 @@
                 padding: 15px 10px 10px 10px;
 
                 .form-group {
-                    width: 100%;
+                    width: 96%;
                     margin: 10px 0px;
                     float: none;
+                    // display: flex;
 
                     &:last-child {
                         width: 96%;
@@ -64,7 +127,7 @@
 
 @media (max-width: 768px) {
     .lets {
-        width:18% ;
+        width: 18%;
     }
 
     .about_section .about_container {
@@ -102,71 +165,402 @@
         }
     }
 
+    .resume_section .resume_container {
+        width: 100%;
+
+        .exp_section {
+            flex-direction: column;
+            margin: auto;
+
+            .resume {
+                width: 70%;
+                border-left: 1px dashed white;
+
+                .education {
+                    width: 100%;
+                    padding: 45px;
+                }
+            }
+
+            .exper {
+                width: 70%;
+            }
+        }
+    }
+
+    // .skills_section{
+    //     .skills_main{
+    //        width: 100%;
+    //        .skill_bar{
+    //           width: 100%;
+    //           .bar{
+    //             width: 100%;
+    //           }
+    //        }
+    //     }
+    // }
+
+    .skills_section {
+        padding: 40px 5%;
+        height: auto;
+        flex-direction: column;
+
+
+        .skills_head {
+            width: 90%;
+            margin-bottom: 40px;
+
+            h1 {
+                font-size: 24px;
+                margin-bottom: 15px;
+
+                span {
+                    color: #efc544;
+                }
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .skills_main {
+            width: 90%;
+            grid-template-columns: 1fr;
+            grid-row-gap: 20px;
+            grid-column-gap: 20px;
+
+            .skill_bar {
+                .info {
+                    // flex-direction: column; 
+                    align-items: flex-start;
+                    padding: 0 5px;
+
+                    p:nth-child(2) {
+                        font-weight: 500;
+                    }
+                }
+
+                .bar {
+                    height: 8px;
+                    margin-top: 5px;
+
+                    span {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .project_section .project_container {
+        width: 100%;
+        margin: auto;
+
+        .project_img {
+            width: 100%;
+            flex-direction: column;
+
+            .druk_img {
+                width: 50%;
+                height: 35vh;
+            }
+
+            .nex_img {
+                width: 50%;
+                height: 35vh;
+            }
+
+            .weeb_img {
+                width: 50%;
+                height: 35vh;
+            }
+
+            .solar_img {
+                width: 50%;
+                height: 35vh;
+            }
+
+            .health_img {
+                width: 50%;
+                height: 35vh;
+            }
+
+            .car_img {
+                width: 50%;
+                height: 35vh;
+            }
+
+            .break_img {
+                width: 50%;
+                height: 35vh;
+            }
+        }
+    }
+
 }
 
 @media (max-width:480px) {
-    .about_section .about_container{
+    .about_section .about_container {
         flex-direction: column;
 
-        .abt_heading{
+        .abt_heading {
             margin: 50px;
         }
+        .abt_img img {
+            height: 40vh;
+            /* border: none; */
+            /* width: 100%; */
+        }
     }
 
-    .resume_section .resume_container{
+    .resume_section .resume_container {
         flex-direction: column;
 
-        .exp_section{
+        .exp_section {
             flex-direction: column;
             width: 100%;
-            .resume_heading{
-                width: 100%;
-            }
-            .education{
-                width: 100%;
-            }
-        }
-    } 
 
-    .skill_section .skill_container{
-       .skill_services{
-        flex-direction: column;
-        width: 100%;
-        .skill_img{
-            width: 80%;
+            .resume_heading {
+                width: 100%;
+            }
+
+            .education {
+                width: 100%;
+            }
         }
-       }
+    }
+
+    .skill_section .skill_container {
+        .skill_services {
+            flex-direction: column;
+            width: 100%;
+
+            .skill_img {
+                width: 80%;
+            }
+        }
 
     }
 
-    .project_section .project_container{
-        .project_img{
+    .project_section .project_container {
+        .project_img {
             flex-direction: column;
-            .img{
+
+            .img {
                 width: 100%;
-                img{
+
+                img {
                     margin-bottom: 30px;
                 }
             }
         }
     }
 
-    #section-wrapper .box-wrapper{
-        .form-wrap{
-           .form-fields{
-            &:last-child {
-                width: 100%;
+    #section-wrapper .box-wrapper {
+        .form-wrap {
+            .form-fields {
+                &:last-child {
+                    width: 96%;
+                    margin: auto;
+                }
             }
-           } 
         }
     }
 }
 
 @media (max-width:360px) {
-   #section-wrapper .box-wrapper{
-    .info-wrap{
-        height: 630px;
+    .about_section .about_container {
+        .abt_heading {
+            padding: 0;
+        }
     }
-   }
+
+    .resume_section {
+        .resume_container {
+            .exp_section {
+                .resume {
+                    .education {
+                        width: 100%;
+                        padding: 16px
+                    }
+                }
+
+                .exper {
+                    .education {
+                        width: 100%;
+                        padding: 16px
+                    }
+                }
+            }
+        }
+    }
+
+    .project_section {
+        .project_container {
+            .project_img {
+                .druk_img {
+                    width: 90%;
+                    height: 35vh;
+                }
+                .nex_img {
+                    width: 90%;
+                    height: 35vh;
+                }
+                .weeb_img {
+                    width: 90%;
+                    height: 35vh;
+                }
+                .solar_img {
+                    width: 90%;
+                    height: 35vh;
+                }
+                .health_img {
+                    width: 90%;
+                    height: 35vh;
+                }
+                .car_img {
+                    width: 90%;
+                    height: 35vh;
+                }
+                .break_img {
+                    width: 90%;
+                    height: 35vh;
+                }
+            }
+        }
+    }
+
+
+
+//     #section-wrapper{ 
+//         .box-wrapper {
+
+//         .info-wrap {
+            
+//             height: 630px;
+//         }
+//     }
+// }
+#section-wrapper {
+    padding: 5px; 
+    .box-wrapper {
+        width: 100%;
+        margin-top: 20px; 
+        border-radius: 15px; 
+
+        .info-wrap {
+            width: 100%;
+            height: auto; 
+            float: none; 
+            border-radius: 15px 15px 0 0; 
+
+            padding: 15px; 
+
+            .info-title {
+                font-size: 20px; 
+            }
+
+            .info-sub-title {
+                font-size: 16px;
+                margin-top: 10px; 
+            }
+
+            .info-details {
+                padding: 20px 0; 
+                li {
+                    font-size: 16px;
+                    margin-top: 12px; 
+
+                    i {
+                        padding: 8px; 
+                        font-size: 14px;
+                    }
+
+                    a {
+                        font-size: 14px; 
+                    }
+                }
+            }
+
+            .social-icons {
+                margin: 10px 0; 
+
+                li {
+                    i {
+                        padding: 10px;
+                        font-size: 16px;
+                        margin: 0 3px; 
+                    }
+                }
+            }
+        }
+
+        .form-wrap {
+            width: 100%; 
+            float: none; 
+            padding: 15px; 
+            border-radius: 15px 15px 0 0; 
+
+            .form-title {
+                font-size: 24px; 
+                margin-left: 0; 
+            }
+
+            .form-fields {
+                padding: 10px 0; 
+
+                input,
+                textarea {
+                    font-size: 16px;
+                    padding: 15px; 
+                }
+
+                textarea {
+                    height: 120px;
+                }
+
+                .form-group {
+                    width: 100%; 
+                    float: none; 
+                    padding: 0; 
+                    margin: 10px 0; 
+                    border-radius: 25px; 
+                    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+
+                    &:last-child {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .submit-button {
+                width: 100%; 
+                height: 50px;
+                margin: 10px 0;
+                font-size: 16px; 
+            }
+        }
+    }
 }
 
+.section_footer .footer_container {
+    flex-direction: column; 
+    padding: 20px 10px; 
+    margin-top: 0; 
+
+    .footer_para,
+    .footer_p {
+        width: 100%;
+        padding: 0; 
+        text-align: center; 
+
+        p {
+            font-size: 14px; 
+            font-weight: 300; 
+        }
+    }
+}
+
+}
