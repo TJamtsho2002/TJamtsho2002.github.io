@@ -331,7 +331,7 @@ header .navbar .lets:hover {
   animation: js 2s;
 }
 .skills_section .skills_main .skill_bar .bar .react {
-  width: 65%;
+  width: 50%;
   animation: react 2s;
 }
 .skills_section .skills_main .skill_bar .bar .node {
@@ -373,10 +373,10 @@ header .navbar .lets:hover {
   align-items: center;
   margin-top: 30px;
 }
-.project_section .project_container .project_img .druk_img {
+.project_section .project_container .project_img .break_img {
   width: 30%;
   height: 35vh;
-  background-image: url(../img/druk\ east.png);
+  background-image: url(../img/breakio\ website.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -385,21 +385,26 @@ header .navbar .lets:hover {
   align-items: start;
   padding-top: 10px;
 }
-.project_section .project_container .project_img .druk_img:hover {
+.project_section .project_container .project_img .break_img:hover {
   transform: all 1s ease;
   border: 2px solid #efc544;
   transition: 1s;
 }
-.project_section .project_container .project_img .druk_img h3 {
+.project_section .project_container .project_img .break_img h3 {
   font-size: 16px;
   font-weight: 300;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.project_section .project_container .project_img .druk_img h3:hover {
+.project_section .project_container .project_img .break_img h3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.project_section .project_container .project_img .break_img h3 a:hover {
   transform: all 1s ease;
   color: #efc544;
   transition: 1s;
+  cursor: pointer;
 }
 .project_section .project_container .project_img .nex_img {
   width: 30%;
@@ -424,10 +429,15 @@ header .navbar .lets:hover {
   color: #ffffff;
   margin-bottom: 10px;
 }
-.project_section .project_container .project_img .nex_img h3:hover {
+.project_section .project_container .project_img .nex_img h3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.project_section .project_container .project_img .nex_img h3 a:hover {
   transform: all 1s ease;
   color: #efc544;
   transition: 1s;
+  cursor: pointer;
 }
 .project_section .project_container .project_img .weeb_img {
   width: 30%;
@@ -452,10 +462,15 @@ header .navbar .lets:hover {
   color: #ffffff;
   margin-bottom: 10px;
 }
-.project_section .project_container .project_img .weeb_img h3:hover {
+.project_section .project_container .project_img .weeb_img h3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.project_section .project_container .project_img .weeb_img h3 a:hover {
   transform: all 1s ease;
   color: #efc544;
   transition: 1s;
+  cursor: pointer;
 }
 .project_section .project_container .project_img .solar_img {
   width: 30%;
@@ -480,10 +495,15 @@ header .navbar .lets:hover {
   color: #ffffff;
   margin-bottom: 10px;
 }
-.project_section .project_container .project_img .solar_img h3:hover {
+.project_section .project_container .project_img .solar_img h3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.project_section .project_container .project_img .solar_img h3 a:hover {
   transform: all 1s ease;
   color: #efc544;
   transition: 1s;
+  cursor: pointer;
 }
 .project_section .project_container .project_img .health_img {
   width: 30%;
@@ -508,10 +528,15 @@ header .navbar .lets:hover {
   color: #ffffff;
   margin-bottom: 10px;
 }
-.project_section .project_container .project_img .health_img h3:hover {
+.project_section .project_container .project_img .health_img h3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.project_section .project_container .project_img .health_img h3 a:hover {
   transform: all 1s ease;
   color: #efc544;
   transition: 1s;
+  cursor: pointer;
 }
 .project_section .project_container .project_img .car_img {
   width: 30%;
@@ -536,38 +561,15 @@ header .navbar .lets:hover {
   color: #ffffff;
   margin-bottom: 10px;
 }
-.project_section .project_container .project_img .car_img h3:hover {
-  transform: all 1s ease;
-  color: #efc544;
-  transition: 1s;
-}
-.project_section .project_container .project_img .break_img {
-  width: 30%;
-  height: 35vh;
-  background-image: url(../img/breakio\ website.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  padding-top: 10px;
-}
-.project_section .project_container .project_img .break_img:hover {
-  transform: all 1s ease;
-  border: 2px solid #efc544;
-  transition: 1s;
-}
-.project_section .project_container .project_img .break_img h3 {
-  font-size: 16px;
-  font-weight: 300;
+.project_section .project_container .project_img .car_img h3 a {
+  text-decoration: none;
   color: #ffffff;
-  margin-bottom: 10px;
 }
-.project_section .project_container .project_img .break_img h3:hover {
+.project_section .project_container .project_img .car_img h3 a:hover {
   transform: all 1s ease;
   color: #efc544;
   transition: 1s;
+  cursor: pointer;
 }
 
 #section-wrapper {

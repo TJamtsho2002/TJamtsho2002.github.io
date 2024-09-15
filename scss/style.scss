@@ -435,7 +435,7 @@ header .navbar {
                 }
 
                 .react {
-                    width: 65%;
+                    width: 50%;
                     animation: react 2s;
                 }
 
@@ -490,10 +490,10 @@ header .navbar {
             align-items: center;
             margin-top: 30px;
 
-            .druk_img {
+            .break_img {
                 width: 30%;
                 height: 35vh;
-                background-image: url(../img/druk\ east.png);
+                background-image: url(../img/breakio\ website.png);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -513,12 +513,18 @@ header .navbar {
                     font-weight: 300;
                     color: #ffffff;
                     margin-bottom: 10px;
-
-                    &:hover {
-                        transform: all 1s ease;
-                        color: #efc544;
-                        transition: 1s;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
                     }
+
+                   
                 }
             }
 
@@ -546,10 +552,15 @@ header .navbar {
                     color: #ffffff;
                     margin-bottom: 10px;
 
-                    &:hover {
-                        transform: all 1s ease;
-                        color: #efc544;
-                        transition: 1s;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
                     }
                 }
             }
@@ -578,10 +589,15 @@ header .navbar {
                     color: #ffffff;
                     margin-bottom: 10px;
 
-                    &:hover {
-                        transform: all 1s ease;
-                        color: #efc544;
-                        transition: 1s;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
                     }
                 }
             }
@@ -610,10 +626,15 @@ header .navbar {
                     color: #ffffff;
                     margin-bottom: 10px;
 
-                    &:hover {
-                        transform: all 1s ease;
-                        color: #efc544;
-                        transition: 1s;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
                     }
                 }
             }
@@ -642,10 +663,15 @@ header .navbar {
                     color: #ffffff;
                     margin-bottom: 10px;
 
-                    &:hover {
-                        transform: all 1s ease;
-                        color: #efc544;
-                        transition: 1s;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
                     }
                 }
             }
@@ -674,43 +700,15 @@ header .navbar {
                     color: #ffffff;
                     margin-bottom: 10px;
 
-                    &:hover {
-                        transform: all 1s ease;
-                        color: #efc544;
-                        transition: 1s;
-                    }
-                }
-            }
-
-            
-            .break_img {
-                width: 30%;
-                height: 35vh;
-                background-image: url(../img/breakio\ website.png);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                display: flex;
-                justify-content: center;
-                align-items: start;
-                padding-top: 10px;
-
-                &:hover {
-                    transform: all 1s ease;
-                    border: 2px solid #efc544;
-                    transition: 1s;
-                }
-
-                h3 {
-                    font-size: 16px;
-                    font-weight: 300;
-                    color: #ffffff;
-                    margin-bottom: 10px;
-
-                    &:hover {
-                        transform: all 1s ease;
-                        color: #efc544;
-                        transition: 1s;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
                     }
                 }
             }
