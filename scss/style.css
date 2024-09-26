@@ -331,7 +331,7 @@ header .navbar .lets:hover {
   animation: js 2s;
 }
 .skills_section .skills_main .skill_bar .bar .react {
-  width: 50%;
+  width: 20%;
   animation: react 2s;
 }
 .skills_section .skills_main .skill_bar .bar .node {
