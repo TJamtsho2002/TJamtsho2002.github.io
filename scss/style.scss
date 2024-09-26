@@ -712,6 +712,43 @@ header .navbar {
                     }
                 }
             }
+
+            .donation_img {
+                width: 30%;
+                height: 35vh;
+                background-image: url(../img/donation\ landing\ page.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                padding-top: 10px;
+
+                &:hover {
+                    transform: all 1s ease;
+                    border: 2px solid #efc544;
+                    transition: 1s;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    margin-bottom: 10px;
+
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
         }
 
     }
