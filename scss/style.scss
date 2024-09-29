@@ -5,10 +5,6 @@
 }
 
 header .navbar {
-    // background-color: variable.$orange;
-    // background-color: #000000;
-    // position: fixed;
-    // width: 100%;
 
     ul li a {
         font-size: 20px;
@@ -49,11 +45,7 @@ header .navbar {
     background-image: url(/img/MOUNTAIN.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    // background-attachment: fixed;
     background-position: center;
-
-    // opacity: 0.4;
-    // background-color: #1b303d;
     .hero_container {
         width: 100%;
         height: 80vh;
@@ -64,35 +56,28 @@ header .navbar {
 
 
         .hero_heading {
-            // height: 80vh;
             text-align: center;
-            // padding-top: 150px;
             z-index: 1;
 
             h5 {
                 color: #fdfeff;
                 font-size: 20px;
                 font-weight: 600;
-                // padding-left: 30px;
             }
 
             h1 {
                 color: #efc544;
                 font-size: 45px;
                 font-weight: 400;
-                // padding-left: 120px;
             }
 
             p {
                 color: #a9adb8;
                 font-size: 16px;
                 font-weight: 300;
-                // padding-left: 430px;
             }
 
             .btn {
-
-                // padding-left: 500px;
                 button {
                     padding: 5px 15px;
                     background-color: variable.$black;
@@ -129,7 +114,6 @@ header .navbar {
     }
 
     .about_container {
-        // border: 1px solid black;
         padding: 50px 20px;
         width: 70%;
         display: flex;
@@ -147,10 +131,8 @@ header .navbar {
                 height: 65vh;
                 object-fit: cover;
                 background-color: #203745e0;
-                // border-radius: 30px;
                 margin: 0 auto;
                 display: block;
-                // box-shadow: 0px 0px 15px;
                 border: 1px solid black;
             }
         }
@@ -158,7 +140,6 @@ header .navbar {
         .abt_heading {
             width: 55%;
             gap: 20px;
-            // padding: 30px;
             text-align: left;
 
 
@@ -243,7 +224,6 @@ header .navbar {
         width: 70%;
         margin: 0 auto;
         margin: auto;
-        // background-color: variable.$milk-white;
 
 
         h1 {
@@ -265,12 +245,10 @@ header .navbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            // gap: 50px;
 
 
             .resume {
                 width: 40%;
-                // border: 1px dashed variable.$black;
 
                 .education {
                     width: 100%;
