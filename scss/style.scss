@@ -45,7 +45,7 @@ header .navbar {
 
 .hero_section {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-image: url(/img/MOUNTAIN.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,14 +56,17 @@ header .navbar {
     // background-color: #1b303d;
     .hero_container {
         width: 100%;
-        // height: 100vh;
+        height: 80vh;
         background-color: #0a101eec;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
 
         .hero_heading {
-            height: 80vh;
+            // height: 80vh;
             text-align: center;
-            padding-top: 150px;
+            // padding-top: 150px;
             z-index: 1;
 
             h5 {
@@ -946,7 +949,7 @@ header .navbar {
     margin-top: 0px;
 
     .footer_para {
-        width: 50%;
+        width: 55%;
         padding-left: 30px;
 
         p {
@@ -958,8 +961,8 @@ header .navbar {
     }
 
     .footer_p {
-        width: 50%;
-        text-align: center;
+        width: 40%;
+        text-align: end;
         padding-right: 30px;
 
         p {
