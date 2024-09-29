@@ -397,42 +397,42 @@ header .navbar {
 
                 .html {
                     width: 90%;
-                    animation: html 2s;
+                    animation: html 3s;
                 }
 
                 .css {
-                    width: 85%;
-                    animation: css 2s;
+                    width: 90%;
+                    animation: css 3s;
                 }
 
                 .sass {
-                    width: 80%;
-                    animation: sass 2s;
+                    width: 90%;
+                    animation: sass 3s;
                 }
 
                 .js {
                     width: 60%;
-                    animation: js 2s;
+                    animation: js 3s;
                 }
 
                 .react {
                     width: 20%;
-                    animation: react 2s;
+                    animation: react 3s;
                 }
 
                 .node {
                     width: 70%;
-                    animation: node 2s;
+                    animation: node 3s;
                 }
 
                 .express {
                     width: 75%;
-                    animation: express 2s;
+                    animation: express 3s;
                 }
 
                 .mongo {
                     width: 60%;
-                    animation: mongo 2s;
+                    animation: mongo 3s;
                 }
             }
         }
@@ -471,10 +471,10 @@ header .navbar {
             align-items: center;
             margin-top: 30px;
 
-            .break_img {
+            .coop_img {
                 width: 30%;
                 height: 35vh;
-                background-image: url(../img/breakio\ website.png);
+                background-image: url(../img/cooperate.png);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -506,117 +506,6 @@ header .navbar {
                     }
 
                    
-                }
-            }
-
-            .nex_img {
-                width: 30%;
-                height: 35vh;
-                background-image: url(../img/nexcent\ website.png);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                display: flex;
-                justify-content: center;
-                align-items: start;
-                padding-top: 10px;
-
-                &:hover {
-                    transform: all 1s ease;
-                    border: 2px solid #efc544;
-                    transition: 1s;
-                }
-
-                h3 {
-                    font-size: 16px;
-                    font-weight: 300;
-                    color: #ffffff;
-                    margin-bottom: 10px;
-
-                    a{
-                        text-decoration: none;
-                        color: #ffffff;
-                        &:hover {
-                            transform: all 1s ease;
-                            color: #efc544;
-                            transition: 1s;
-                            cursor: pointer;
-                        }
-                    }
-                }
-            }
-
-            .weeb_img {
-                width: 30%;
-                height: 35vh;
-                background-image: url(../img/weeb\ website.png);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                display: flex;
-                justify-content: center;
-                align-items: start;
-                padding-top: 10px;
-
-                &:hover {
-                    transform: all 1s ease;
-                    border: 2px solid #efc544;
-                    transition: 1s;
-                }
-
-                h3 {
-                    font-size: 16px;
-                    font-weight: 300;
-                    color: #ffffff;
-                    margin-bottom: 10px;
-
-                    a{
-                        text-decoration: none;
-                        color: #ffffff;
-                        &:hover {
-                            transform: all 1s ease;
-                            color: #efc544;
-                            transition: 1s;
-                            cursor: pointer;
-                        }
-                    }
-                }
-            }
-
-            .solar_img {
-                width: 30%;
-                height: 35vh;
-                background-image: url(../img/solar\ website.png);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                display: flex;
-                justify-content: center;
-                align-items: start;
-                padding-top: 10px;
-
-                &:hover {
-                    transform: all 1s ease;
-                    border: 2px solid #efc544;
-                    transition: 1s;
-                }
-
-                h3 {
-                    font-size: 16px;
-                    font-weight: 300;
-                    color: #ffffff;
-                    margin-bottom: 10px;
-
-                    a{
-                        text-decoration: none;
-                        color: #ffffff;
-                        &:hover {
-                            transform: all 1s ease;
-                            color: #efc544;
-                            transition: 1s;
-                            cursor: pointer;
-                        }
-                    }
                 }
             }
 
@@ -694,6 +583,81 @@ header .navbar {
                 }
             }
 
+
+            .nex_img {
+                width: 30%;
+                height: 35vh;
+                background-image: url(../img/nexcent\ website.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                padding-top: 10px;
+
+                &:hover {
+                    transform: all 1s ease;
+                    border: 2px solid #efc544;
+                    transition: 1s;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    margin-bottom: 10px;
+
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            .weeb_img {
+                width: 30%;
+                height: 35vh;
+                background-image: url(../img/weeb\ website.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                padding-top: 10px;
+
+                &:hover {
+                    transform: all 1s ease;
+                    border: 2px solid #efc544;
+                    transition: 1s;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    margin-bottom: 10px;
+
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
             .donation_img {
                 width: 30%;
                 height: 35vh;
@@ -728,6 +692,44 @@ header .navbar {
                             cursor: pointer;
                         }
                     }
+                }
+            }
+
+            .break_img {
+                width: 30%;
+                height: 35vh;
+                background-image: url(../img/breakio\ website.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                padding-top: 10px;
+
+                &:hover {
+                    transform: all 1s ease;
+                    border: 2px solid #efc544;
+                    transition: 1s;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    margin-bottom: 10px;
+                    a{
+                        text-decoration: none;
+                        color: #ffffff;
+                        &:hover {
+                            transform: all 1s ease;
+                            color: #efc544;
+                            transition: 1s;
+                            cursor: pointer;
+                        }
+                    }
+
+                   
                 }
             }
         }
