@@ -185,19 +185,7 @@
     width: 100%;
     flex-direction: column;
   }
-  .project_section .project_container .project_img .druk_img {
-    width: 50%;
-    height: 35vh;
-  }
-  .project_section .project_container .project_img .nex_img {
-    width: 50%;
-    height: 35vh;
-  }
-  .project_section .project_container .project_img .weeb_img {
-    width: 50%;
-    height: 35vh;
-  }
-  .project_section .project_container .project_img .solar_img {
+  .project_section .project_container .project_img .coop_img {
     width: 50%;
     height: 35vh;
   }
@@ -206,6 +194,18 @@
     height: 35vh;
   }
   .project_section .project_container .project_img .car_img {
+    width: 50%;
+    height: 35vh;
+  }
+  .project_section .project_container .project_img .nex_img {
+    width: 50%;
+    height: 35vh;
+  }
+  .project_section .project_container .project_img .donation_img {
+    width: 50%;
+    height: 35vh;
+  }
+  .project_section .project_container .project_img .weeb_img {
     width: 50%;
     height: 35vh;
   }
