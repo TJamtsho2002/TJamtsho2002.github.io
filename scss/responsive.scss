@@ -262,6 +262,10 @@
             width: 100%;
             flex-direction: column;
 
+            .coop_img{
+                width: 50%;
+                height: 35vh;  
+            }
             .druk_img {
                 width: 50%;
                 height: 35vh;
@@ -277,10 +281,10 @@
                 height: 35vh;
             }
 
-            .solar_img {
-                width: 50%;
-                height: 35vh;
-            }
+            // .solar_img {
+            //     width: 50%;
+            //     height: 35vh;
+            // }
 
             .health_img {
                 width: 50%;
