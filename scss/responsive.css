@@ -272,11 +272,15 @@
     width: 100%;
     padding: 16px;
   }
-  .project_section .project_container .project_img .druk_img {
+  .project_section .project_container .project_img .coop_img {
     width: 90%;
     height: 35vh;
   }
   .project_section .project_container .project_img .nex_img {
+    width: 90%;
+    height: 35vh;
+  }
+  .project_section .project_container .project_img .donation_img {
     width: 90%;
     height: 35vh;
   }
